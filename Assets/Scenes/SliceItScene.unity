@@ -1315,5 +1315,33 @@ PrefabInstance:
       propertyPath: isTwo
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8887102951946252991, guid: 0f1fa03e156349c4999fb7e21f2549a3, type: 3}
+      propertyPath: gLower.Val0
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8887102951946252991, guid: 0f1fa03e156349c4999fb7e21f2549a3, type: 3}
+      propertyPath: gLower.Val2
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 8887102951946252991, guid: 0f1fa03e156349c4999fb7e21f2549a3, type: 3}
+      propertyPath: gUpper.Val0
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 8887102951946252991, guid: 0f1fa03e156349c4999fb7e21f2549a3, type: 3}
+      propertyPath: oLower.Val1
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8887102951946252991, guid: 0f1fa03e156349c4999fb7e21f2549a3, type: 3}
+      propertyPath: oLower.Val2
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8887102951946252991, guid: 0f1fa03e156349c4999fb7e21f2549a3, type: 3}
+      propertyPath: oUpper.Val0
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8887102951946252991, guid: 0f1fa03e156349c4999fb7e21f2549a3, type: 3}
+      propertyPath: cameraSwitch
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f1fa03e156349c4999fb7e21f2549a3, type: 3}

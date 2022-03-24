@@ -81,8 +81,12 @@ public class Detection : MonoBehaviour
 				}
 			}
 		}
+		
 		if (cameraSwitch)
+		{
+			Cv2.BitwiseOr(oMask, gMask, mask);
 			Show(mask);
+		}
 		else
 			Show(frame);
 	}

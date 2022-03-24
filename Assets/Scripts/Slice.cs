@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 public class Slice : MonoBehaviour
 {
 	public GameObject trail;
@@ -31,7 +30,6 @@ public class Slice : MonoBehaviour
 			if (gDist < 25f)
 				_collider.enabled = false;
 			pos = Vector3.MoveTowards(pos, detection.gPosition, gDist * speed * Time.deltaTime);
-			//print("gDist: " + gDist);
 		}
 		if(isSecond)
 		{
@@ -39,7 +37,6 @@ public class Slice : MonoBehaviour
 			if (oDist < 25f)
 				_collider.enabled = false;
 			pos = Vector3.MoveTowards(pos, detection.oPosition, oDist * speed * Time.deltaTime);
-			//print("oDist: " + oDist);
 		}
 		//pos = detection.position;
 		pos.z = 15f;
@@ -64,7 +61,6 @@ public class Slice : MonoBehaviour
 	{
 		if (isSecond && collision.gameObject.name.Substring(0, 6) == "Orange")
 		{
-			print("aa");
 			collision.collider.gameObject.SetActive(false);
 			score.score++;
 		}
