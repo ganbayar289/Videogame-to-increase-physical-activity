@@ -1297,9 +1297,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trail: {fileID: 3192575646052721018}
   detection: {fileID: 8887102953276248322}
-  score: 0
+  score: {fileID: 0}
   speed: 10
-  scoreText: {fileID: 0}
+  isSecond: 0
 --- !u!50 &3192575647185942914
 Rigidbody2D:
   serializedVersion: 4
@@ -1414,7 +1414,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   webCamTexture: {fileID: 0}
-  cameraSwitch: 0
+  cameraSwitch: 1
+  isTwo: 0
   gLower:
     Val0: 65
     Val1: 70
@@ -1435,7 +1436,8 @@ MonoBehaviour:
     Val1: 255
     Val2: 255
     Val3: 0
-  position: {x: 0, y: 0, z: 0}
+  gPosition: {x: 0, y: 0, z: 0}
+  oPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &8887102953276248325
 GameObject:
   m_ObjectHideFlags: 0
