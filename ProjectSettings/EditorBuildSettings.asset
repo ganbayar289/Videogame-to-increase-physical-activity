@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MenuScene.unity
+    guid: 785ebdd02d47d8844a63d38c1deca409
+  - enabled: 1
+    path: Assets/Scenes/SliceItScene.unity
+    guid: 46115c72756012f4e9dccc48e1c6ab63
+  - enabled: 1
+    path: Assets/Scenes/ChooseScene.unity
+    guid: 5cf0826f6120aa446bc8748e9cedfb84
+  - enabled: 1
+    path: Assets/Scenes/BreakoutScene.unity
+    guid: 606120dce6810394b97475dc0fd07916
+  - enabled: 1
+    path: Assets/Scenes/HockeyScene.unity
+    guid: dd5c4407b96780b4e8ba5f393ec9f0a3
+  m_configObjects: {}
