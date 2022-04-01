@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HockeyScene.unity
     guid: dd5c4407b96780b4e8ba5f393ec9f0a3
+  - enabled: 1
+    path: Assets/Scenes/CalibrateScene.unity
+    guid: e75b8175356f7804c8fc8ad403d3ac7f
   m_configObjects: {}

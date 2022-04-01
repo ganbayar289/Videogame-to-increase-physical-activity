@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -2617478237975740542}
   - component: {fileID: 1754384193020068215}
   m_Layer: 0
-  m_Name: GreenCircle
+  m_Name: FirstCircle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -164,7 +164,7 @@ MonoBehaviour:
     _triangleOffset: 0.5
     _usePolygonMap: 0
   wasConverted: 0
-  preConvertedScale: {x: 0, y: 0, z: 0}
+  preConvertedScale: {x: 2.5, y: 2.5, z: 1}
 --- !u!114 &-2617478237975740542
 MonoBehaviour:
   m_ObjectHideFlags: 0

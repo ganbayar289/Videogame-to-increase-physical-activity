@@ -42,29 +42,15 @@ public class Slice : MonoBehaviour
 		pos.z = 15f;
 		
 		rb.position = cam.ScreenToWorldPoint(pos);
-		/*if (Input.GetMouseButtonDown(0))
-		{
-			StartCutting();
-		}
-		else if(Input.GetMouseButtonUp(0))
-		{
-			StopCutting();
-		}
-		if(isCutting)
-		{
-			print(pos);
-			UpdateCut();
-		}*/
-
 	}
 	private void OnCollisionEnter2D(Collision2D collision)
 	{
-		if (isSecond && collision.gameObject.name.Substring(0, 6) == "Orange")
+		if (isSecond && collision.gameObject.name.Substring(0, 6) == "Second")
 		{
 			collision.collider.gameObject.SetActive(false);
 			score.score++;
 		}
-		else if (!isSecond && collision.gameObject.name.Substring(0, 5) == "Green")
+		else if (!isSecond && collision.gameObject.name.Substring(0, 5) == "First")
 		{
 			collision.collider.gameObject.SetActive(false);
 			score.score++;
@@ -77,10 +63,10 @@ public class Slice : MonoBehaviour
 		_collider.enabled = true;
 		trail.SetActive(true);
 	}
-	void StopCutting()
+/*	void StopCutting()
 	{
 		_collider.enabled = false;
 		trail.SetActive(false);
 		isCutting = false;
-	}
+	}*/
 }
